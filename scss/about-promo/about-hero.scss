@@ -1,0 +1,73 @@
+.about-hero {
+  margin-bottom: 40px;
+  margin-top: 10px;
+  max-width: $content-width;
+  height: 300px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../images/tours-header.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  position: relative;
+  width: 100%;
+
+  .about-hero-text {
+    font-size: 35px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
+
+  .about-hero-text-tours {
+    font-size: 50px;
+    position: absolute;
+    top: 50px;
+    left: 400px;
+  }
+
+  .about-price-text {
+    font-size: 20px;
+    font-style: italic;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+  }
+}
+
+.about-hero-1 {
+  margin-bottom: 40px;
+  margin-top: 10px;
+  max-width: $content-width;
+  height: 300px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../images/tours-header.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  position: relative;
+  width: 100%;
+
+  .about-hero-text {
+    font-size: 35px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
+
+  .about-hero-text-tours {
+    font-size: 50px;
+    position: absolute;
+    top: 50px;
+    left: 400px;
+  }
+
+  .about-price-text {
+    font-size: 20px;
+    font-style: italic;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+  }
+}

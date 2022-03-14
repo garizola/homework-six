@@ -1,0 +1,32 @@
+.footer {
+  max-width: $content-width;
+  width: 90%;
+  height: 100px;
+  background-color: #79addc;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 70px;
+
+  .logoF {
+    width: 92px;
+    height: 42px;
+
+    display: flex;
+    padding-top: 26px;
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+    span {
+      color: white;
+    }
+  }
+
+  .copyright {
+    color: white;
+  }
+
+  .icons {
+  }
+}

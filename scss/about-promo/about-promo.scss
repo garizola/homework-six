@@ -1,0 +1,96 @@
+.about-promo {
+  max-width: 980px;
+  min-height: 304px;
+  display: flex;
+  //background-color: aquamarine;
+  justify-content: space-around;
+  margin-bottom: 30px;
+  width: 100%;
+
+  .promo-1 {
+    @include promo(url(../images/tour-01.jpg));
+  }
+
+  .promo-2 {
+    @include promo(url(../images/tour-02.jpg));
+  }
+
+  .promo-3 {
+    @include promo(url(../images/tour-03.jpg));
+  }
+
+  .promo-4 {
+    @include promo(url(../images/tour-04.jpg));
+  }
+
+  .promo-5 {
+    @include promo(url(../images/tour-05.jpg));
+  }
+
+  .promo-6 {
+    @include promo(url(../images/tour-06.jpg));
+  }
+
+  .promo-7 {
+    @include promo(url(../images/tour-07.jpg));
+  }
+
+  .promo-8 {
+    @include promo(url(../images/tour-08.jpg));
+  }
+
+  .promo-9 {
+    @include promo(url(../images/tour-09.jpg));
+  }
+}
+
+.promo-i1 {
+  @include promo1(url(../images/israel-tour-01.jpg));
+}
+
+.promo-i2 {
+  @include promo1(url(../images/israel-tour-02.jpg));
+}
+
+.promo-i3 {
+  @include promo1(url(../images/israel-tour-03.jpg));
+}
+
+.promo-aus1 {
+  @include promo(url(../images/aus-tour-01.jpg));
+}
+
+.promo-aus2 {
+  @include promo(url(../images/aus-tour-02.jpg));
+}
+
+.promo-aus3 {
+  @include promo(url(../images/aus-tour-03.jpg));
+}
+
+.promo-nz1 {
+  @include promo(url(../images/nz-tour-01.jpg));
+}
+
+.promo-nz2 {
+  @include promo(url(../images/nz-tour-02.jpg));
+}
+
+.promo-nz3 {
+  @include promo(url(../images/nz-tour-03.jpg));
+}
+
+@media screen and (max-width: 750px) {
+  .about-promo {
+    flex-direction: column;
+    display: block;
+    justify-content: space-around;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+  }
+
+  .about {
+    margin-left: 25px;
+  }
+}

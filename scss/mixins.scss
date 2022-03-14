@@ -1,0 +1,59 @@
+@mixin promo($siteImage: url(../images/thumb1_300x300.jpg)) {
+  height: 304px;
+  width: 235px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    $siteImage;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  .promo-text {
+    font-size: 40px;
+    color: white;
+    margin-bottom: 60px;
+  }
+
+  .read-btn {
+    @include site-button();
+  }
+}
+
+@mixin site-button() {
+  background-color: $site-blue;
+  color: white;
+  padding: 5px 15px;
+  border-radius: 10px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+@mixin site-hero($hero-image: url(../images/7.jpg)) {
+  margin-bottom: 20px;
+  margin-top: 10px;
+  max-width: $content-width;
+  height: 300px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../images/7.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  position: relative;
+}
+
+@mixin promo1($siteImage: url(../images/thumb1_300x300.jpg)) {
+  height: 304px;
+  width: 235px;
+  background-image: $siteImage;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
